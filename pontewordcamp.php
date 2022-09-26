@@ -2,20 +2,20 @@
 /**
  * WordCamp Pontevedra 2022 demo plugin.
  *
- * @link              https://fgrweb.es
+ * @link              hhttps://quintanaweb.com/
  * @since             1.0.0
- * @package           Ponte_WordCamp
+ * @package           QW-OptiPer
  *
  * @wordpress-plugin
- * Plugin Name:       WordCamp Pontevedra 2023
- * Plugin URI:        https://fgrweb.es/
- * Description:       Plugin demo para WordCamp Pontevedra 2022.
- * Version:           1.0.4
- * Author:            Adrian
- * Author URI:        https://fgrweb.es
+ * Plugin Name:       QW-OptiPer
+ * Plugin URI:        https://quintanaweb.com/plugin/
+ * Description:       Plugin para optimizar el fichero <code>functions.php</code> y alguna cosa más del aspecto visual del entorno. Puedes activarlo a placer (o no) tu eliges.
+ * Version:           1.0.5
+ * Author:            QuintanaWeb
+ * Author URI:        https://quintanaweb.com/
  * License:           GPL-2.0+
  * License URI:       http://www.gnu.org/licenses/gpl-2.0.txt
- * Text Domain:       pontewordcamp
+ * Text Domain:       quintanaweb
  * Domain Path:       /languages
  */
 
