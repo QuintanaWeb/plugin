@@ -7,11 +7,11 @@
  * @package           Ponte_WordCamp
  *
  * @wordpress-plugin
- * Plugin Name:       WordCamp Pontevedra 2022
+ * Plugin Name:       WordCamp Pontevedra 2023
  * Plugin URI:        https://fgrweb.es/
  * Description:       Plugin demo para WordCamp Pontevedra 2022.
- * Version:           1.0.2
- * Author:            Fernando Garcia Rebolledo
+ * Version:           1.0.4
+ * Author:            Adrian
  * Author URI:        https://fgrweb.es
  * License:           GPL-2.0+
  * License URI:       http://www.gnu.org/licenses/gpl-2.0.txt
@@ -32,8 +32,8 @@ function run_pontewordcamp() {
 	if ( is_admin() ) {
 		include_once plugin_dir_path( __FILE__ ) . '/class-pontewordcamp-updater.php';
 		$config  = array(
-			'github_uri' => 'https://api.github.com/repos/fgrweb/pontewordcamp/releases',
-			'token'      => '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',
+			'github_uri' => 'https://api.github.com/repos/QuintanaWeb/plugin/releases',
+			'token'      => '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',
 		);
 		$updater = new Ponte_WordCamp_Updater( $config, __FILE__ );
 		$updater->fgr_check_update();
